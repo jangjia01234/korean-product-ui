@@ -1,0 +1,176 @@
+.product-ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 0;
+  border: 1px solid transparent;
+  border-radius: var(--product-radius-control);
+  cursor: pointer;
+  font-family: var(--product-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color var(--product-transition-fast),
+    border-color var(--product-transition-fast),
+    color var(--product-transition-fast),
+    box-shadow var(--product-transition-fast),
+    transform var(--product-transition-fast);
+}
+
+.product-ui-button:focus-visible {
+  outline: 0;
+  box-shadow: var(--product-focus-ring);
+}
+
+.product-ui-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.product-ui-button:disabled {
+  cursor: not-allowed;
+  opacity: .52;
+}
+
+.product-ui-button[data-size="sm"] {
+  min-height: var(--product-control-height-sm);
+  padding: 0 12px;
+  font-size: 13px;
+}
+
+.product-ui-button[data-size="md"] {
+  min-height: var(--product-control-height-md);
+  padding: 0 16px;
+}
+
+.product-ui-button[data-size="lg"] {
+  min-height: var(--product-control-height-lg);
+  padding: 0 18px;
+}
+
+.product-ui-button[data-variant="primary"] {
+  border-color: var(--product-color-accent);
+  background: var(--product-color-accent);
+  color: var(--product-color-on-accent);
+}
+
+.product-ui-button[data-variant="primary"]:hover:not(:disabled) {
+  border-color: var(--product-color-accent-strong);
+  background: var(--product-color-accent-strong);
+}
+
+.product-ui-button[data-variant="secondary"] {
+  border-color: #a8c3de;
+  background: var(--product-color-canvas);
+  color: var(--product-color-ink);
+}
+
+.product-ui-button[data-variant="secondary"]:hover:not(:disabled) {
+  border-color: var(--product-color-accent);
+  background: #f6f9fc;
+  color: var(--product-color-accent);
+}
+
+.product-ui-button[data-variant="ghost"] {
+  border-color: transparent;
+  background: transparent;
+  color: inherit;
+}
+
+.product-ui-button[data-variant="ghost"]:hover:not(:disabled) {
+  background: rgb(47 58 143 / 8%);
+}
+
+.product-ui-panel {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: var(--product-radius-card);
+  background: var(--product-color-canvas);
+  color: var(--product-color-ink);
+}
+
+.product-ui-panel[data-tone="muted"] {
+  background: var(--product-color-page);
+}
+
+.product-ui-panel[data-tone="outlined"] {
+  border-color: var(--product-color-hairline);
+  background: var(--product-color-canvas);
+}
+
+.product-ui-panel[data-elevation="raised"] {
+  box-shadow: var(--product-shadow-panel);
+}
+
+.product-ui-panel__header {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.product-ui-panel__eyebrow {
+  color: var(--product-color-subtle);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.product-ui-panel__title {
+  margin: 0;
+  color: var(--product-color-ink);
+  font-size: 24px;
+  font-weight: 850;
+  line-height: 1.2;
+}
+
+.product-ui-panel__description {
+  margin: 0;
+  color: var(--product-color-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.product-ui-status-badge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  min-height: 24px;
+  padding: 0 9px;
+  border: 1px solid transparent;
+  border-radius: var(--product-radius-pill);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.product-ui-status-badge[data-tone="neutral"] {
+  border-color: var(--product-color-hairline);
+  background: var(--product-color-surface-muted);
+  color: var(--product-color-body);
+}
+
+.product-ui-status-badge[data-tone="accent"] {
+  border-color: var(--product-color-accent-border);
+  background: var(--product-color-accent-soft);
+  color: var(--product-color-accent-strong);
+}
+
+.product-ui-status-badge[data-tone="warning"] {
+  border-color: #ffd58a;
+  background: var(--product-color-warning-surface);
+  color: var(--product-color-warning-ink);
+}
+
+.product-ui-status-badge[data-tone="danger"] {
+  border-color: #ffd4cf;
+  background: var(--product-color-error-surface);
+  color: var(--product-color-error-ink);
+}

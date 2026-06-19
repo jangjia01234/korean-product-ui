@@ -1,0 +1,36 @@
+:root {
+  --product-font-family:
+    "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Segoe UI", system-ui, sans-serif;
+  --product-color-ink: #191f28;
+  --product-color-body: #4e5968;
+  --product-color-muted: #6b7684;
+  --product-color-subtle: #8b95a1;
+  --product-color-canvas: #ffffff;
+  --product-color-page: #f7f8fa;
+  --product-color-surface: #f9fafb;
+  --product-color-surface-muted: #f2f4f6;
+  --product-color-surface-hover: #eceff3;
+  --product-color-hairline: #e5e8eb;
+  --product-color-control-border: #d1d6db;
+  --product-color-accent: #2f3a8f;
+  --product-color-accent-strong: #243083;
+  --product-color-accent-soft: #eef1fb;
+  --product-color-accent-border: #d9def3;
+  --product-color-on-accent: #ffffff;
+  --product-color-warning-surface: #fff7e6;
+  --product-color-warning-ink: #8a5a00;
+  --product-color-error-surface: #fff1f0;
+  --product-color-error-ink: #9f2a1d;
+  --product-radius-panel: 16px;
+  --product-radius-card: 14px;
+  --product-radius-control: 8px;
+  --product-radius-pill: 999px;
+  --product-control-height-sm: 32px;
+  --product-control-height-md: 36px;
+  --product-control-height-lg: 44px;
+  --product-shadow-panel: 0 18px 44px rgb(25 31 40 / 8%);
+  --product-shadow-floating: 0 18px 40px rgb(13 37 61 / 16%);
+  --product-focus-ring: 0 0 0 3px rgb(47 58 143 / 16%);
+  --product-transition-fast: 160ms ease-out;
+}

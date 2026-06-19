@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "korean-product-ui",
+  "homepage": "https://github.com/jangjia01234/korean-product-ui",
+  "items": [
+    {
+      "name": "product-ui",
+      "type": "registry:component",
+      "title": "Korean Product UI",
+      "description": "Reusable product UI tokens and React primitives for Korean operations dashboards.",
+      "files": [
+        {
+          "path": "src/ProductButton.tsx",
+          "type": "registry:component",
+          "target": "components/product-ui/ProductButton.tsx"
+        },
+        {
+          "path": "src/ProductPanel.tsx",
+          "type": "registry:component",
+          "target": "components/product-ui/ProductPanel.tsx"
+        },
+        {
+          "path": "src/ProductStatusBadge.tsx",
+          "type": "registry:component",
+          "target": "components/product-ui/ProductStatusBadge.tsx"
+        },
+        {
+          "path": "src/utils.ts",
+          "type": "registry:lib",
+          "target": "lib/product-ui-utils.ts"
+        },
+        {
+          "path": "src/tokens.css",
+          "type": "registry:style",
+          "target": "styles/product-ui-tokens.css"
+        },
+        {
+          "path": "src/components.css",
+          "type": "registry:style",
+          "target": "styles/product-ui-components.css"
+        }
+      ]
+    }
+  ]
+}

@@ -491,11 +491,13 @@ a {
   background: transparent;
   cursor: pointer;
   filter: drop-shadow(0 14px 26px rgb(49 130 246 / 28%));
+  overflow: hidden;
 }
 
 .chat-fab img {
   width: 68px;
   height: 68px;
+  object-fit: cover;
 }
 
 .demo-table-panel {

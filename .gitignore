@@ -5,3 +5,6 @@ dist
 *.log
 coverage
 .vite
+.env
+.env.local
+.env.*.local

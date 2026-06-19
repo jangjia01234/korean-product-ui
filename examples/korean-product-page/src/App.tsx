@@ -84,7 +84,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
 
         <img
           className="landing-mockup-image"
-          src="/device-mockup.svg"
+          src="/ai/hero-devices.png"
           alt="태블릿과 휴대폰에 표시된 한국어 서비스 UI 예시"
         />
       </header>
@@ -102,7 +102,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
           </div>
           <img
             className="section-mockup-image"
-            src="/dashboard-mockup.svg"
+            src="/ai/dashboard-section.png"
             alt="대시보드 형태의 한국어 서비스 UI 목업"
           />
         </div>
@@ -112,7 +112,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
         <div className="landing-product-section landing-product-section-reverse">
           <img
             className="section-mockup-image section-mockup-phone"
-            src="/mobile-mockup.svg"
+            src="/ai/mobile-section.png"
             alt="휴대폰에 표시된 한국어 서비스 UI 목업"
           />
           <div className="section-copy">
@@ -135,7 +135,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
           </div>
           <div className="showcase-grid">
             <ProductPanel className="showcase-card" tone="outlined" elevation="raised">
-              <img src="/asset-builder.svg" alt="" />
+              <img src="/ai/showcase-landing.png" alt="" />
               <ProductPanelHeader
                 eyebrow="랜딩"
                 title="간결한 첫 화면"
@@ -144,7 +144,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
               <ProductButton variant="secondary">보기</ProductButton>
             </ProductPanel>
             <ProductPanel className="showcase-card" tone="outlined">
-              <img src="/asset-mobile.svg" alt="" />
+              <img src="/ai/showcase-admin.png" alt="" />
               <ProductPanelHeader
                 eyebrow="어드민"
                 title="상태 중심 대시보드"
@@ -153,7 +153,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
               <ProductButton variant="secondary" onClick={onAdminClick}>어드민 열기</ProductButton>
             </ProductPanel>
             <ProductPanel className="showcase-card" tone="outlined">
-              <img src="/asset-team.svg" alt="" />
+              <img src="/ai/showcase-settings.png" alt="" />
               <ProductPanelHeader
                 eyebrow="설정"
                 title="읽기 쉬운 옵션"
@@ -235,7 +235,7 @@ function LandingExample({ onAdminClick }: { onAdminClick: () => void }) {
         </footer>
       </section>
       <button className="chat-fab" type="button" aria-label="상담 열기">
-        <img src="/chat-avatar.svg" alt="" />
+        <img src="/ai/chat-avatar.png" alt="" />
       </button>
     </section>
   )

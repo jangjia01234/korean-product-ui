@@ -63,15 +63,15 @@
 }
 
 .product-ui-button[data-variant="secondary"] {
-  border-color: #a8c3de;
-  background: var(--product-color-canvas);
-  color: var(--product-color-ink);
+  border-color: transparent;
+  background: var(--product-color-accent-soft);
+  color: var(--product-color-accent);
 }
 
 .product-ui-button[data-variant="secondary"]:hover:not(:disabled) {
-  border-color: var(--product-color-accent);
-  background: #f6f9fc;
-  color: var(--product-color-accent);
+  border-color: transparent;
+  background: #dcebff;
+  color: var(--product-color-accent-strong);
 }
 
 .product-ui-button[data-variant="ghost"] {
@@ -81,7 +81,7 @@
 }
 
 .product-ui-button[data-variant="ghost"]:hover:not(:disabled) {
-  background: rgb(47 58 143 / 8%);
+  background: rgb(49 130 246 / 10%);
 }
 
 .product-ui-panel {
@@ -97,7 +97,8 @@
 }
 
 .product-ui-panel[data-tone="muted"] {
-  background: var(--product-color-page);
+  border-color: var(--product-color-hairline);
+  background: var(--product-color-canvas);
 }
 
 .product-ui-panel[data-tone="outlined"] {

@@ -1,0 +1,32 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="520" fill="none"/>
+  <rect x="82" y="54" width="596" height="394" rx="32" fill="#FFFFFF" stroke="#D1D6DB"/>
+  <rect x="100" y="70" width="560" height="42" rx="18" fill="#FFFFFF"/>
+  <rect x="100" y="112" width="560" height="1" fill="#E5E8EB"/>
+  <circle cx="120" cy="84" r="8" fill="#3182F6"/>
+  <circle cx="146" cy="84" r="8" fill="#D1D6DB"/>
+  <circle cx="172" cy="84" r="8" fill="#D1D6DB"/>
+  <text x="212" y="91" fill="#191F28" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="17" font-weight="760">서비스 운영 대시보드</text>
+  <rect x="112" y="144" width="158" height="122" rx="18" fill="#F9FAFC" stroke="#E5E8EB"/>
+  <text x="134" y="178" fill="#8B95A1" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="700">오늘 확인</text>
+  <text x="134" y="220" fill="#191F28" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="38" font-weight="760">8개</text>
+  <rect x="134" y="232" width="80" height="28" rx="14" fill="#E8F3FF" stroke="#CFE5FF"/>
+  <text x="154" y="251" fill="#1B64DA" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="800">확인 가능</text>
+  <rect x="288" y="144" width="158" height="122" rx="18" fill="#FFFFFF" stroke="#E5E8EB"/>
+  <text x="310" y="178" fill="#8B95A1" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="700">진행 중</text>
+  <text x="310" y="220" fill="#191F28" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="38" font-weight="760">14개</text>
+  <rect x="310" y="232" width="70" height="28" rx="14" fill="#F2F4F6" stroke="#E5E8EB"/>
+  <text x="329" y="251" fill="#4E5968" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="800">진행 중</text>
+  <rect x="464" y="144" width="184" height="122" rx="18" fill="#FFFFFF" stroke="#E5E8EB"/>
+  <text x="486" y="178" fill="#8B95A1" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="700">완료</text>
+  <text x="486" y="220" fill="#191F28" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="38" font-weight="760">32개</text>
+  <rect x="486" y="232" width="108" height="28" rx="14" fill="#E8F3FF"/>
+  <text x="525" y="251" fill="#1B64DA" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="800">보기</text>
+  <rect x="112" y="294" width="536" height="126" rx="20" fill="#FFFFFF" stroke="#E5E8EB"/>
+  <text x="136" y="330" fill="#191F28" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="22" font-weight="760">최근 작업</text>
+  <rect x="136" y="350" width="488" height="1" fill="#E5E8EB"/>
+  <text x="136" y="382" fill="#191F28" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700">홈 화면 정리</text>
+  <text x="344" y="382" fill="#4E5968" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700">김민지</text>
+  <rect x="520" y="363" width="76" height="28" rx="14" fill="#F2F4F6" stroke="#E5E8EB"/>
+  <text x="539" y="382" fill="#4E5968" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="800">진행 중</text>
+</svg>
